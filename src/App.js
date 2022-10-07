@@ -1,8 +1,9 @@
 import './App.css';
+import UseStateExample from './Components/UseStateExample';
 
 function App() {
   return (
-    <h1>Hi!</h1>
+    <UseStateExample />
   );
 }
 
