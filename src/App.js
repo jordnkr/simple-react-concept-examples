@@ -1,10 +1,11 @@
 import './App.css';
-import UseStateExample from './Components/UseStateExample';
-import UseRefExample from './Components/UseRefExample';
+import UseStateExample from './Components/UseState/UseStateExample';
+import UseRefExample from './Components/UseRef/UseRefExample';
+import ImperativeHandleExample from './Components/UseImperativeHandle/ImperativeHandleExample';
 
 function App() {
   return (
-    <UseRefExample />
+    <ImperativeHandleExample />
   );
 }
 
