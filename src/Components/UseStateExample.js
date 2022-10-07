@@ -9,7 +9,7 @@ const UseStateExample = () => {
   }
 
   const setDisplayedValueHandler = () => {
-    setDisplayedValue(inputValue.length > 0 ? inputValue : "No value was entered.");
+    setDisplayedValue(inputValue.trim().length > 0 ? inputValue : "No value was entered.");
   }
 
   return (
